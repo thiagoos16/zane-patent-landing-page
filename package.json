@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "heroku-postbuild": "npm run build"
+    "heroku-postbuild": "npm run build --legacy-peer-deps"
   },
   "dependencies": {
     "@chakra-ui/core": "0.8.0",
