@@ -10,7 +10,7 @@
     "heroku-postbuild": "npm run build"
   },
   "dependencies": {
-    "@chakra-ui/core": "0.8.0",
+    "@chakra-ui/core": "^0.8.0",
     "@chakra-ui/react": "1.6.4",
     "@emotion/react": "11.4.0",
     "@emotion/styled": "11.3.0",
