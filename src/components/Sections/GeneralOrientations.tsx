@@ -1,5 +1,7 @@
 import { Box, Heading, VStack, HStack, Center, Text, Image } from "@chakra-ui/react";
 
+import Seemore from "../Seemore";
+
 export function GeneralOrientations() {
     return (
         <Center
@@ -9,15 +11,31 @@ export function GeneralOrientations() {
         >
             <VStack spacing="10">
                 <Box>
-                    <Text fontSize="3xl" color="green.500" fontWeight="bold" textAlign="center" maxW="900">
-                        O que é: Our landing page template works on all devices, so you only have to set it up once, and get beautiful results forever.
-                    </Text>
+                    <Seemore color="green.500" 
+                        fontSize="3xl" 
+                        maxW="900" 
+                        colorRD="green.600"
+                        fontSizeRD="1xl"
+                        >
+                        O InovAmazonPI é uma plataforma totalmente gratuita que tem 
+                        como objetivo demonstrar por meio de simulações e estudo dirigido, 
+                        o passo a passo para depósito de pedido de patente.
+                    </Seemore>
                 </Box>
 
                 <Box>
-                    <Text fontSize="2xl" color="green.900" textAlign="center" maxW="1000">
-                        Para que Serve: Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.
-                    </Text>
+                    <Seemore 
+                        fontSize="2xl" 
+                        color="green.800" 
+                        textAlign="center" 
+                        maxW="1000"
+                        colorRD="green.900"
+                        fontSizeRD="1xl"
+                        >
+                        O produto InovAmazonPI é fruto de um trabalho de Mestrado 
+                        em Propriedade Intelectual e Transferência de Tecnologia para Inovação. 
+                        Parceria firmada entre a Rede PROFNIT e a Universidade do Estado do Amazonas (UEA)
+                    </Seemore>
                 </Box>
 
                 <Box>
