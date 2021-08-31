@@ -1,7 +1,20 @@
 import { Box, Icon, VStack, HStack, Center, Text, Heading, List, ListItem, ListIcon } from "@chakra-ui/react";
-import { RiStarFill, RiCompassFill, Ri4KLine, RiFlagLine, RiCheckboxCircleFill, RiSettingsFill } from 'react-icons/ri';
+import { RiStarFill, RiCompassFill, Ri4KLine, RiFlagLine, RiCheckboxCircleFill, RiSettingsFill, RiFileSearchLine } from 'react-icons/ri';
+
+import { RequisitesModal } from '../Modal/RequisitesModal';
+import { useState } from 'react';
 
 export function RequisitesOrientations() {
+    const [isRequisitesModalOpen, setIsRequisitesModalOpen] = useState(false);
+
+    function handleOpenRequisitesModal() {
+        setIsRequisitesModalOpen(true);
+    }
+  
+    function handleCloseNewTransactionModal() {
+        setIsRequisitesModalOpen(false);
+    }
+
     return (
         <Center
             my="6" mx="auto" px="6"
@@ -24,15 +37,18 @@ export function RequisitesOrientations() {
                 <Box>
                     <HStack spacing="20"> 
                         <Box>
-                            <VStack>
+                            <VStack
+                                cursor='pointer'
+                                onClick={handleOpenRequisitesModal}
+                            >
                                 <Box bgColor="green.300" borderRadius="25" p="1">
-                                    <Icon as={RiStarFill} fontSize="30" color="white"/>
+                                    <Icon as={RiFileSearchLine} fontSize="30" color="white"/>
                                 </Box>
                                 <Heading fontSize="3xl">
-                                    Fase I
+                                    Busca
                                 </Heading>
                                 <Text color="green.900" textAlign="center" maxW="200">
-                                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                                    Conhecer o estado da técnica é fundamental para a concessão da patente.
                                 </Text>
                             </VStack>
                         </Box>
@@ -253,6 +269,8 @@ export function RequisitesOrientations() {
                     </HStack>
                 </Box>
             </VStack>
+
+            <RequisitesModal isOpen={isRequisitesModalOpen} onRequestClose={handleCloseNewTransactionModal} />
         </Center>
     )
 }
