@@ -1,23 +1,20 @@
-import { Box, Flex, VStack, Center, Text, Button } from "@chakra-ui/react";
+import { Box, Flex, VStack, Center, Text, Button, Image } from "@chakra-ui/react";
 
 export function Intro() {
     return (
         <Center
-            mt="6"
+            mt="20"
             h="72"
             w="100%"
             bgColor=""
         >
             <VStack>
-                <Text fontSize="4xl">
-                    Simulador de <Text as="span" color="green.400" fontWeight="bold" > Patente </Text>
-                </Text>
+                <Image
+                    src="/assets/inovamazonpi-logo.png"
+                />
                 <Text fontSize="2xl">
-                    Com o zanePatent você pode simular sua patente. 
+                    Descubra todos os passos para registrar sua patente 
                 </Text>
-                <Button as="a" size="lg" fontSize="lg" colorScheme="green">
-                    Simular
-                </Button>
             </VStack>
         </Center>
     )
