@@ -1,4 +1,4 @@
-import { Flex, Text, Input, Icon, HStack, Box, Avatar, Link } from '@chakra-ui/react';
+import { Flex, Text, Input, Icon, HStack, Box, Avatar, Link, Image } from '@chakra-ui/react';
 import { RiSearchLine, RiNotificationLine, RiUserAddLine } from 'react-icons/ri';
 
 import { MenuItem } from './Menu/Item';
@@ -12,19 +12,21 @@ export function Header() {
             maxWidth={1480}
             h="20"
             mx="auto"
-            mt="4"
             px="6"
             align="center"
+            bgColor="white"
+            sx={{
+                "position":"fixed", 
+                "overflow":"hidden",
+                "top": "0"
+            }}
         >
-            <Text
-                fontSize="3xl"
-                fontWeight="bold"
-                letterSpacing="tight"
-                w="64"
-            >
-                zanePatent
-                <Text as="span" ml="1" color="green.600"> . </Text>
-            </Text>
+            <Image
+                mt="-5"
+                boxSize="40"
+                objectFit="contain"
+                src="/assets/inovamazonpi-logo.png"
+            />
         
             <Flex
                 align="center"
