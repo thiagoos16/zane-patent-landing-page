@@ -5,13 +5,13 @@ import Seemore from "../Seemore";
 export function GeneralOrientations() {
     return (
         <Center
-            my="6" mx="auto" px="6"
+            my="06" mx="auto" px="6"
             w="100%"
             bgColor=""
         >
             <VStack spacing="10">
                 <Box>
-                    <Seemore color="green.500" 
+                    {/* <Seemore color="green.500" 
                         fontSize="3xl" 
                         maxW="900" 
                         colorRD="green.600"
@@ -20,7 +20,17 @@ export function GeneralOrientations() {
                         O InovAmazonPI é uma plataforma totalmente gratuita que tem 
                         como objetivo demonstrar por meio de simulações e estudo dirigido, 
                         o passo a passo para depósito de pedido de patente.
-                    </Seemore>
+                    </Seemore> */}
+                    <Text color="green.500" 
+                        fontSize="3xl" 
+                        maxW="900" 
+                        fontWeight="bold" 
+                        textAlign="center"
+                        >
+                        O InovAmazonPI é uma plataforma totalmente gratuita que tem 
+                        como objetivo demonstrar por meio de simulações e estudo dirigido, 
+                        o passo a passo para depósito de pedido de patente.
+                    </Text> 
                 </Box>
 
                 <Box>
