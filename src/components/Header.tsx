@@ -18,7 +18,8 @@ export function Header() {
             sx={{
                 "position":"fixed", 
                 "overflow":"hidden",
-                "top": "0"
+                "top": "0",
+                "z-index": "999"
             }}
         >
             <Image
