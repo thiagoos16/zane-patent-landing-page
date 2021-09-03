@@ -1,6 +1,7 @@
 import { Box, Icon, VStack, HStack, Center, Text, Heading, List, ListItem, ListIcon } from "@chakra-ui/react";
 import { RiStarFill, RiCompassFill, Ri4KLine, RiFlagLine, RiCheckboxCircleFill, RiSettingsFill, RiFileSearchLine } from 'react-icons/ri';
 
+import { TempRequisites } from '../TempRequisites';
 import { RequisitesModal } from '../Modal/RequisitesModal';
 import { useState } from 'react';
 
@@ -21,7 +22,11 @@ export function RequisitesOrientations() {
             w="100%"
             bgColor=""
         >
+            
+
             <VStack spacing="10">
+                <TempRequisites/>
+
                 <Box>
                     <Text fontSize="4xl" color="green.600" fontWeight="bold">
                         Divisão por fase
