@@ -316,33 +316,34 @@ export function TempRequisites() {
                     <Box mt="5" flex="1" textAlign="left" fontWeight="bold" color="green.600">
                         3. Pesquisa em bancos de dados de Patentes
                     </Box>
-                
-                    <Text textAlign="justify" sx={{"text-indent":"50px"}} mt="5">
-                        A fim de orientar a realização de buscas de patentes através do BuscaWeb, assim como
-                        na internet, foi elaborado um passo a passo simplificado, com informações necessárias para
-                        descobrir detalhes sobre qualquer invento, que já pode ter sido alvo do interesse de pessoas e
-                        empresas, no Brasil e no exterior.
-                    </Text>
-                    <Text textAlign="justify" sx={{"text-indent":"50px"}} mt="5">
-                        Existem várias formas de fazer busca, sendo que, foi elaborado um 
-                        <a href="https://www.gov.br/inpi/pt-br/assuntos/informacao/guia-pratico-para-buscas-de-patentes">
-                            Guia Prático
-                        </a> para Buscas de Patentes. 
-                        <a href="https://www.gov.br/inpi/pt-br/assuntos/informacao/guia-pratico-para-buscas-de-
-                        patentes"> 
-                            https://www.gov.br/inpi/pt-br/assuntos/informacao/guia-pratico-para-buscas-de-
-                            patentes 
-                        </a>. O Guia Básico apresenta como fazer buscas em quatro bases de patentes, bem como
-                        guias de introdução à Classificação Internacional de Patentes (CIP ou IPC em inglês) e aos
-                        operadores utilizados em buscas de patentes.
-                    </Text>
-                    <ImageContainer 
-                        title="Figura 9 – Exemplo de bases de dados de patentes gratuitas" 
-                        imgSrc="/assets/figure-9-Exemplos-bases-de-dados-de-patentes-gratuitas.png"
-                        subtitle="elaboração própria" 
-                    />
+                    <Box>
+                        <Text textAlign="justify" sx={{"text-indent":"50px"}} mt="5">
+                            A fim de orientar a realização de buscas de patentes através do BuscaWeb, assim como
+                            na internet, foi elaborado um passo a passo simplificado, com informações necessárias para
+                            descobrir detalhes sobre qualquer invento, que já pode ter sido alvo do interesse de pessoas e
+                            empresas, no Brasil e no exterior.
+                        </Text>
+                        <Text textAlign="justify" sx={{"text-indent":"50px"}} mt="5">
+                            Existem várias formas de fazer busca, sendo que, foi elaborado um 
+                            <a href="https://www.gov.br/inpi/pt-br/assuntos/informacao/guia-pratico-para-buscas-de-patentes">
+                                Guia Prático
+                            </a> para Buscas de Patentes. 
+                            <a href="https://www.gov.br/inpi/pt-br/assuntos/informacao/guia-pratico-para-buscas-de-
+                            patentes"> 
+                                https://www.gov.br/inpi/pt-br/assuntos/informacao/guia-pratico-para-buscas-de-
+                                patentes 
+                            </a>. O Guia Básico apresenta como fazer buscas em quatro bases de patentes, bem como
+                            guias de introdução à Classificação Internacional de Patentes (CIP ou IPC em inglês) e aos
+                            operadores utilizados em buscas de patentes.
+                        </Text>
+                        <ImageContainer 
+                            title="Figura 9 – Exemplo de bases de dados de patentes gratuitas" 
+                            imgSrc="/assets/figure-9-Exemplos-bases-de-dados-de-patentes-gratuitas.png"
+                            subtitle="elaboração própria" 
+                        />
+                    </Box>
                 </Box>
             </Box>
-         </VStack>
+        </VStack>
     );
 }
