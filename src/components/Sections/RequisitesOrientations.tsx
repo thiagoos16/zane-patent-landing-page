@@ -1,5 +1,8 @@
 import { Box, Icon, VStack, HStack, Center, Text, Heading, List, ListItem, ListIcon } from "@chakra-ui/react";
-import { RiStarFill, RiCompassFill, Ri4KLine, RiFlagLine, RiCheckboxCircleFill, RiSettingsFill, RiFileSearchLine } from 'react-icons/ri';
+import { RiStarFill, RiCompassFill, Ri4KLine, 
+        RiFlagLine, RiCheckboxCircleFill, RiSettingsFill, 
+        RiFileSearchLine, RiFileEditLine, RiMoneyDollarBoxLine,
+        RiRefreshLine } from 'react-icons/ri';
 
 import { TempRequisites } from '../TempRequisites';
 import { RequisitesModal } from '../Modal/RequisitesModal';
@@ -35,7 +38,11 @@ export function RequisitesOrientations() {
                 
                 <Box>
                     <Text fontSize="2xl" color="green.900" maxW="650" textAlign="center">
-                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.
+                        A seguir destacam-se as fases para auxiliar os depositantes e/ou titulares 
+                        de pedidos de patente
+                        e patentes, com relação aos atos necessários a serem praticados no INPI, 
+                        bem como apresentar os principais conceitos de questões vinculadas 
+                        à Propriedade Industrial em matéria de patentes.
                     </Text>
                 </Box>
                 
@@ -59,44 +66,44 @@ export function RequisitesOrientations() {
                         </Box>
 
                         <Box>
-                            <VStack>
-                            <Box bgColor="green.300" borderRadius="25" p="1">
-                                <Icon as={RiCompassFill} fontSize="30" color="white"/>
-                            </Box>
-                            <Heading fontSize="3xl">
-                                Fase II
-                            </Heading>
-                            <Text color="green.900" textAlign="center" maxW="200">
-                                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
-                            </Text>
-                        </VStack>
+                            <VStack textAlign="center">
+                                <Box bgColor="green.300" borderRadius="25" p="1">
+                                    <Icon as={RiFileEditLine} fontSize="30" color="white"/>
+                                </Box>
+                                <Heading fontSize="3xl">
+                                    Elaboração do pedido
+                                </Heading>
+                                <Text color="green.900" textAlign="center" maxW="200">
+                                    Considerações iniciais para auxiliar o autor na redação do pedido de patente ao INPI.
+                                </Text>
+                            </VStack>
                         </Box>
 
                         <Box>
-                            <VStack>
-                            <Box bgColor="green.300" borderRadius="25" p="1">
-                                <Icon as={Ri4KLine} fontSize="30" color="white"/>
-                            </Box>
-                            <Heading fontSize="3xl">
-                                Fase III
-                            </Heading>
-                            <Text color="green.900" textAlign="center" maxW="200">
-                                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
-                            </Text>
-                        </VStack>
+                            <VStack textAlign="center">
+                                <Box bgColor="green.300" borderRadius="25" p="1">
+                                    <Icon as={RiMoneyDollarBoxLine} fontSize="30" color="white"/>
+                                </Box>
+                                <Heading fontSize="3xl">
+                                    Depósito eletrônico
+                                </Heading>
+                                <Text color="green.900" textAlign="center" maxW="200">
+                                    Para obter a patente, cabe ao autor requerer a proteção legal junto ao INPI.
+                                </Text>
+                            </VStack>
                         </Box>
 
                         <Box>
-                            <VStack>
-                            <Box bgColor="green.300" borderRadius="25" p="1">
-                                <Icon as={RiFlagLine} fontSize="30" color="white"/>
-                            </Box>
-                            <Heading fontSize="3xl">
-                                Fase IV
-                            </Heading>
-                            <Text color="green.900" textAlign="center" maxW="200">
-                                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
-                            </Text>
+                            <VStack textAlign="center">
+                                <Box bgColor="green.300" borderRadius="25" p="1">
+                                    <Icon as={RiRefreshLine} fontSize="30" color="white"/>
+                                </Box>
+                                <Heading fontSize="3xl">
+                                    Acompanhamento de processo
+                                </Heading>
+                                <Text color="green.900" textAlign="center" maxW="200">
+                                    O usuário deve atentar a eventuais exigências e necessidades do rito processual.
+                                </Text>
                             </VStack>
                         </Box>
                     </HStack>
