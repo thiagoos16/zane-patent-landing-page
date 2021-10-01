@@ -9,14 +9,17 @@ import { RequisitesModal } from '../Modal/RequisitesModal';
 import { useState } from 'react';
 
 export function RequisitesOrientations() {
-    const [isRequisitesModalOpen, setIsRequisitesModalOpen] = useState(false);
+    const [isFrom, setIsFrom] = useState("");
+    const [isModalOpen, setIsModalOpen] = useState(false);
 
-    function handleOpenRequisitesModal() {
-        setIsRequisitesModalOpen(true);
+    function handleOpenModal(isFrom: string) {
+        setIsFrom(isFrom);
+        setIsModalOpen(true);
     }
   
-    function handleCloseNewTransactionModal() {
-        setIsRequisitesModalOpen(false);
+    function handleCloseModal() {
+        setIsFrom("");
+        setIsModalOpen(false);
     }
 
     return (
@@ -25,10 +28,8 @@ export function RequisitesOrientations() {
             w="100%"
             bgColor=""
         >
-            
-
             <VStack spacing="10">
-                <TempRequisites/>
+                {/* <TempRequisites/> */}
 
                 <Box>
                     <Text fontSize="4xl" color="green.600" fontWeight="bold">
@@ -51,7 +52,7 @@ export function RequisitesOrientations() {
                         <Box>
                             <VStack
                                 cursor='pointer'
-                                onClick={handleOpenRequisitesModal}
+                                onClick={() => handleOpenModal("Busca")}
                             >
                                 <Box bgColor="green.300" borderRadius="25" p="1">
                                     <Icon as={RiFileSearchLine} fontSize="30" color="white"/>
@@ -66,7 +67,11 @@ export function RequisitesOrientations() {
                         </Box>
 
                         <Box>
-                            <VStack textAlign="center">
+                            <VStack 
+                                textAlign="center"
+                                cursor='pointer'
+                                onClick={() => handleOpenModal("Elaboração do pedido")}
+                            >
                                 <Box bgColor="green.300" borderRadius="25" p="1">
                                     <Icon as={RiFileEditLine} fontSize="30" color="white"/>
                                 </Box>
@@ -80,7 +85,11 @@ export function RequisitesOrientations() {
                         </Box>
 
                         <Box>
-                            <VStack textAlign="center">
+                            <VStack 
+                                textAlign="center"
+                                cursor='pointer'
+                                onClick={() => handleOpenModal("Depósito eletrônico")}
+                            >
                                 <Box bgColor="green.300" borderRadius="25" p="1">
                                     <Icon as={RiMoneyDollarBoxLine} fontSize="30" color="white"/>
                                 </Box>
@@ -94,7 +103,11 @@ export function RequisitesOrientations() {
                         </Box>
 
                         <Box>
-                            <VStack textAlign="center">
+                            <VStack 
+                                textAlign="center"
+                                cursor='pointer'
+                                onClick={() => handleOpenModal("Acompanhamento de processo")}
+                            >
                                 <Box bgColor="green.300" borderRadius="25" p="1">
                                     <Icon as={RiRefreshLine} fontSize="30" color="white"/>
                                 </Box>
@@ -282,7 +295,7 @@ export function RequisitesOrientations() {
                 </Box>
             </VStack>
 
-            <RequisitesModal isOpen={isRequisitesModalOpen} onRequestClose={handleCloseNewTransactionModal} />
+            <RequisitesModal isOpen={isModalOpen} onRequestClose={handleCloseModal} isFrom={isFrom}/>
         </Center>
     )
 }
