@@ -39,6 +39,7 @@ export function RequisitesModal({ isOpen, onRequestClose, isFrom }: NewRequisite
             break;
         case "Acompanhamento de processo":
             modalBody = <ProcessMonitoring/>;
+            sizeModal = "5xl";
             break;
         default:
             break;

@@ -1237,7 +1237,7 @@ export function ElectronicDeposit() {
                     </Text>
                     <ImageContainer 
                         title="Figura 49 – Prévia do documento antes do protocolo" 
-                        imgSrc="/asets/figure-49-Previa-do-documento-antes-do-protocolo.png"
+                        imgSrc="/assets/figure-49-Previa-do-documento-antes-do-protocolo.png"
                         subtitle="https://www.gov.br/inpi/pt-br/servicos/patentes/e-patentes" 
                         subtitleLink="https://www.gov.br/inpi/pt-br/servicos/patentes/e-patentes" 
                     />
