@@ -35,6 +35,7 @@ export function RequisitesModal({ isOpen, onRequestClose, isFrom }: NewRequisite
             break;
         case "Depósito eletrônico":
             modalBody = <ElectronicDeposit/>;
+            sizeModal = "6xl";
             break;
         case "Acompanhamento de processo":
             modalBody = <ProcessMonitoring/>;

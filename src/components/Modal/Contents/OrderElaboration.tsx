@@ -184,7 +184,7 @@ export function OrderElaboration() {
                     <ImageContainer 
                         title="Figura 10 – Exemplo da descrição dos desenhos" 
                         imgSrc="/assets/figure-10-Exemplo-da-descricao-dos-desenhos.png"
-                        subtitle="Fonte: elaboração própria"  
+                        subtitle="elaboração própria"  
                     />
                     <br/>
                     <Text>
@@ -199,7 +199,7 @@ export function OrderElaboration() {
                     <ImageContainer 
                         title="Figura 11 - Exemplo da descrição detalhada da invenção" 
                         imgSrc="/assets/figure-11-Exemplo-da-descricao-detalhada-da-invencao.png"
-                        subtitle="Fonte: elaboração própria"  
+                        subtitle="elaboração própria"  
                     />
                 </TabPanel>
                 <TabPanel>
@@ -270,7 +270,7 @@ export function OrderElaboration() {
                                 <ImageContainer 
                                     title="Figura 12 - exemplo da uma reivindicação dependente" 
                                     imgSrc="/assets/figure-12-exemplo-da-uma-reivindicacao-dependente.png"
-                                    subtitle="Fonte: elaboração própria"  
+                                    subtitle="elaboração própria"  
                                 />
                                 <br/>
                                 <Text textAlign="justify" sx={{"text-indent":"50px"}}>
@@ -364,7 +364,7 @@ export function OrderElaboration() {
                     <ImageContainer 
                         title="Figura 13 – exemplo de desenho de um pedido de patente" 
                         imgSrc="/assets/figure-13-exemplo-de-desenho-de-um-pedido-de-patente.png"
-                        subtitle="Fonte: banco de patentes do INPI"
+                        subtitle="banco de patentes do INPI"
                     />
                 </TabPanel>
                 <TabPanel>
