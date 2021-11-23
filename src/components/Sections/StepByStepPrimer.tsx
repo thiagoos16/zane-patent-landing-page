@@ -68,13 +68,13 @@ export function StepByStepPrimer() {
                     </HStack>
                 </Box> */}
                 
-                <Box align="center">
+                {/* <Box align="center">
                     <Text fontSize="4xl" color="green.600" fontWeight="bold">
                         Formulário
                     </Text>
 
                     <SimulationStepByStep  />
-                </Box>
+                </Box> */}
                 
                 <Box>
                     <VStack>
