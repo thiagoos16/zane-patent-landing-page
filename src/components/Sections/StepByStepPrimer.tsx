@@ -40,7 +40,7 @@ export function StepByStepPrimer() {
                     </Box>
                 </Box> */}
 
-                <Box align="center">
+                {/* <Box align="center">
                     <Box>
                         <Text fontSize="4xl" color="green.600" fontWeight="bold">
                             Cortes de Telas
@@ -66,7 +66,7 @@ export function StepByStepPrimer() {
                             <Image src="https://open.cruip.com/static/media/features-split-image-01.d9cb99ce.png"/>
                         </Box>
                     </HStack>
-                </Box>
+                </Box> */}
                 
                 <Box align="center">
                     <Text fontSize="4xl" color="green.600" fontWeight="bold">
