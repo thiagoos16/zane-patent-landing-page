@@ -47,8 +47,6 @@ export function Header() {
 
                     <MenuItem name="Cartilhas"/>
 
-                    <MenuItem name="Simulação"/>
-
                     <MenuItem name="Fale Conosco"/>
                 </HStack>
             </Flex>

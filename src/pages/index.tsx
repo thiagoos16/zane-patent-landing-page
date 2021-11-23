@@ -19,8 +19,6 @@ export default function Home() {
       <Divider />
       <StepByStepPrimer />
       <Divider />
-      <Simulation />
-      <Divider />
       <ContatcUs />
     </Box>
   )

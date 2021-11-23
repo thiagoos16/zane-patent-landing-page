@@ -10,7 +10,7 @@ export function StepByStepPrimer() {
             bgColor=""
         >
             <VStack spacing="10">
-                <Box align="center">
+                {/* <Box align="center">
                     <Box>
                         <Text fontSize="4xl" color="green.600" fontWeight="bold">
                             Animação Rápida
@@ -20,9 +20,9 @@ export function StepByStepPrimer() {
                     <Box mt="6">
                         <Image src="/assets/animation-01.gif"/>    
                     </Box>
-                </Box>
+                </Box> */}
 
-                <Box align="center">
+                {/* <Box align="center">
                     <Box>
                         <Text fontSize="4xl" color="green.600" fontWeight="bold">
                             Vídeo com Telas
@@ -38,7 +38,7 @@ export function StepByStepPrimer() {
                             />
                         </AspectRatio>
                     </Box>
-                </Box>
+                </Box> */}
 
                 <Box align="center">
                     <Box>
