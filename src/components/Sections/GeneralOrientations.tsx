@@ -64,31 +64,31 @@ export function GeneralOrientations() {
                     </Text>
                 </Box>
 
-                <Box>
+                <Box pb="5">
                     <HStack spacing="10">
                     <VStack shadow="md" borderWidth="1px" p="2" bgColor="green.100" borderRadius="5px">
                         <Heading fontSize="3xl">
-                            R$ 00,00
+                            R$ 1.675,00
                         </Heading>
                         <Text>
-                            Descrição Respectiva
+                            Valor inicial (sem recurso)
+                            {/* <br/> .
                             <br/> .
                             <br/> .
-                            <br/> .
-                            <br/> .
+                            <br/> . */}
                         </Text>
                     </VStack>
 
                     <VStack shadow="md" borderWidth="1px" p="2" bgColor="green.100" borderRadius="5px">
                         <Heading fontSize="3xl">
-                            R$ 00,00
+                            R$ 3.035,00
                         </Heading>
                         <Text>
-                            Descrição Respectiva
+                            Valor final (com 1 recurso)
+                            {/* <br/> .
                             <br/> .
                             <br/> .
-                            <br/> .
-                            <br/> .
+                            <br/> . */}
                         </Text>
                     </VStack>
                 </HStack>
