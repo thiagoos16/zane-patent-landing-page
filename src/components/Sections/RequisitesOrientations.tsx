@@ -31,9 +31,9 @@ export function RequisitesOrientations() {
             <VStack spacing="10">
                 {/* <TempRequisites/> */}
 
-                <Box>
+                <Box id="general_orientations">
                     <Text fontSize="4xl" color="green.600" fontWeight="bold">
-                        Divisão por fase
+                        Orientações gerais
                     </Text>
                 </Box> 
                 
@@ -122,9 +122,9 @@ export function RequisitesOrientations() {
                     </HStack>
                 </Box>
 
-                <Box>
+                <Box id="requisites_orientations">
                     <Text fontSize="4xl" color="green.600" fontWeight="bold">
-                        Requisitos em cada fase
+                        Orientações de requisitos
                     </Text>
                 </Box> 
 

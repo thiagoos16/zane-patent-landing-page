@@ -41,13 +41,21 @@ export function Header() {
                     borderRightWidth={1}
                     borderColor="gray.200"
                 >
-                    <MenuItem name="Orientações Gerais"/>
+                    <a href="#general_orientations">
+                        <MenuItem  name="Orientações Gerais"/>
+                    </a>
 
-                    <MenuItem name="Orientações de Requisitos"/>
+                    <a href="#requisites_orientations">
+                        <MenuItem name="Orientações de Requisitos"/>
+                    </a>
 
-                    <MenuItem name="Cartilhas"/>
-
-                    <MenuItem name="Fale Conosco"/>
+                    <a href="#castile">
+                        <MenuItem name="Cartilhas"/>
+                    </a>
+                    
+                    <a href="#talk_us">
+                        <MenuItem name="Fale Conosco"/>
+                    </a>
                 </HStack>
             </Flex>
         </Flex>

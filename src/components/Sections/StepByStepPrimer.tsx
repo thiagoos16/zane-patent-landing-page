@@ -1,4 +1,5 @@
-import { Box, Flex, VStack, HStack, Center, Text, AspectRatio, Image, Heading, Icon, Divider } from "@chakra-ui/react";
+import { Box, Flex, VStack, HStack, Center, Text, AspectRatio, Image, Heading, Icon, Divider, List, ListItem, ListIcon, Link } from "@chakra-ui/react";
+import { RiFileDownloadLine } from 'react-icons/ri';
 
 import { SimulationStepByStep } from "../Form/SimulationStepByStep";
 
@@ -76,7 +77,7 @@ export function StepByStepPrimer() {
                     <SimulationStepByStep  />
                 </Box> */}
                 
-                <Box>
+                {/* <Box>
                     <VStack>
                         <Heading fontSize="3xl" color="green.600" fontWeight="bold">
                         Projetos de Sucesso
@@ -119,6 +120,27 @@ export function StepByStepPrimer() {
                             </Text>
                         </VStack>
                     </HStack>
+                </Box> */}
+
+                <Box mb="5" id="castile">
+                    <VStack>
+                        <Heading fontSize="3xl" color="green.600" fontWeight="bold">
+                            Downloads
+                        </Heading>
+                        <Text color="green.900" textAlign="center" maxW="600">
+                            Baixe as castilhas com mais detalhes.
+                        </Text>
+                        <List>
+                            <ListItem>
+                                <Link target="_blank" href="/assets/castilha-inpi.pdf">
+                                    <ListIcon as={RiFileDownloadLine} color="green.600"/>
+                                    <Text as="span" color="green.900">
+                                        Cartilha do INPI
+                                    </Text>
+                                </Link> 
+                            </ListItem>
+                        </List>
+                    </VStack>
                 </Box>
             </VStack>
         </Center>
