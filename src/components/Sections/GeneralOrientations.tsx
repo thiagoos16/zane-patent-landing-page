@@ -55,7 +55,7 @@ export function GeneralOrientations() {
                 </Box>
 
                 <Box>
-                    <Image src="https://files.comunidades.net/rtvminas/timeline.png"/>    
+                    <Image src="/assets/timeline.png"/>    
                 </Box>
 
                 <Box>
