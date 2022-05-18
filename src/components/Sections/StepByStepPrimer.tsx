@@ -128,14 +128,72 @@ export function StepByStepPrimer() {
                             Downloads
                         </Heading>
                         <Text color="green.900" textAlign="center" maxW="600">
-                            Baixe as castilhas com mais detalhes.
+                            Baixe as castilhas com mais detalhes:
                         </Text>
                         <List>
                             <ListItem>
-                                <Link target="_blank" href="/assets/castilha-inpi.pdf">
+                                <Link target="_blank" href="/assets/castilhas/castilha-inpi.pdf">
                                     <ListIcon as={RiFileDownloadLine} color="green.600"/>
                                     <Text as="span" color="green.900">
                                         Cartilha do INPI
+                                    </Text>
+                                </Link> 
+                            </ListItem>
+                        </List>
+                    </VStack>
+                    <VStack>
+                        <Heading fontSize="3xl" color="green.600" fontWeight="bold">
+                            
+                        </Heading>
+                        <Text color="green.900" textAlign="center" maxW="600">
+                            Modelos de patentes de cunho biotecnológico:
+                        </Text>
+                        <List>
+                            <ListItem>
+                                <Link target="_blank" href="/assets/castilhas/BR-10-2014-027203-8.pdf">
+                                    <ListIcon as={RiFileDownloadLine} color="green.600"/>
+                                    <Text as="span" color="green.900">
+                                        BR 10 2014 027203 8.pdf
+                                    </Text>
+                                </Link> 
+                            </ListItem>
+                            <ListItem>
+                                <Link target="_blank" href="/assets/castilhas/PI-0502237-1.pdf">
+                                    <ListIcon as={RiFileDownloadLine} color="green.600"/>
+                                    <Text as="span" color="green.900">
+                                        PI 0502237 1.pdf
+                                    </Text>
+                                </Link> 
+                            </ListItem>
+                            <ListItem>
+                                <Link target="_blank" href="/assets/castilhas/PI-0504746-3.pdf">
+                                    <ListIcon as={RiFileDownloadLine} color="green.600"/>
+                                    <Text as="span" color="green.900">
+                                        PI 0504746 3.pdf
+                                    </Text>
+                                </Link> 
+                            </ListItem>
+                            <ListItem>
+                                <Link target="_blank" href="/assets/castilhas/PI-0801629-1.pdf">
+                                    <ListIcon as={RiFileDownloadLine} color="green.600"/>
+                                    <Text as="span" color="green.900">
+                                        PI 0801629 1.pdf
+                                    </Text>
+                                </Link> 
+                            </ListItem>
+                            <ListItem>
+                                <Link target="_blank" href="/assets/castilhas/PI-0903273-8.pdf">
+                                    <ListIcon as={RiFileDownloadLine} color="green.600"/>
+                                    <Text as="span" color="green.900">
+                                        PI 0903273 8.pdf
+                                    </Text>
+                                </Link> 
+                            </ListItem>
+                            <ListItem>
+                                <Link target="_blank" href="/assets/castilhas/PI-8701422-0.pdf">
+                                    <ListIcon as={RiFileDownloadLine} color="green.600"/>
+                                    <Text as="span" color="green.900">
+                                        PI 8701422 0.pdf
                                     </Text>
                                 </Link> 
                             </ListItem>
