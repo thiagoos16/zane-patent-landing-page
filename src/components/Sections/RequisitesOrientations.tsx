@@ -130,7 +130,10 @@ export function RequisitesOrientations() {
 
                 <Box>
                     <Text fontSize="2xl" color="green.900" maxW="650" textAlign="center">
-                        Em cada fase é importante respeitar cada um dos seus requistos.
+                        Em cada fase é importante respeitar seus requisitos, a partir do item 5 do 
+                        manual do INPI você encontrará todas as informações atinentes ao processo 
+                        de depósito do pedido, de maneira completa conceitualmente e contemplando 
+                        ilustrações, abaixo destacam-se as seguintes informações:
                     </Text>
                 </Box>
 
@@ -142,31 +145,43 @@ export function RequisitesOrientations() {
                                     <Icon as={RiStarFill} fontSize="30" color="white"/>
                                 </Box>
                                 <Heading fontSize="3xl">
-                                    Fase I
+                                    Fase 1
                                 </Heading>
                                 <List>
                                     <ListItem>
-                                        <ListIcon as={RiCheckboxCircleFill} color="green.600"/>
+                                        <ListIcon as={RiSettingsFill} color="green.600"/>
                                         <Text as="span" color="green.900">
-                                            Duis aute irure dolor in
+                                            Cadastro no sistema e-INPI  (pág 43)
                                         </Text> 
                                     </ListItem>
                                     <ListItem>
                                         <ListIcon as={RiSettingsFill} color="green.600"/>
                                         <Text as="span" color="green.900">
-                                            in voluptate velit esse 
-                                        </Text> 
-                                    </ListItem>
-                                    <ListItem>
-                                        <ListIcon as={RiCheckboxCircleFill} color="green.600"/>
-                                        <Text as="span" color="green.900">
-                                            eu fugiat nulla pariatur
+                                            Consulta à tabela de retribuições da diretoria de patentes (pág 47) 
                                         </Text> 
                                     </ListItem>
                                     <ListItem>
                                         <ListIcon as={RiSettingsFill} color="green.600"/>
                                         <Text as="span" color="green.900">
-                                            sint occaecat cupidatat
+                                            Emissão da Guia de Recolhimento da União (GRU) (pág 50)
+                                        </Text> 
+                                    </ListItem>
+                                    <ListItem>
+                                        <ListIcon as={RiSettingsFill} color="green.600"/>
+                                        <Text as="span" color="green.900">
+                                            Pagamento da retribuição (pág 55)
+                                        </Text> 
+                                    </ListItem>
+                                    <ListItem>
+                                        <ListIcon as={RiSettingsFill} color="green.600"/>
+                                        <Text as="span" color="green.900">
+                                            Acesso e preenchimento dos formulários eletrônicos (pág 56)
+                                        </Text> 
+                                    </ListItem>
+                                    <ListItem>
+                                        <ListIcon as={RiSettingsFill} color="green.600"/>
+                                        <Text as="span" color="green.900">
+                                        Submeter o formulário eletrônico (pág 69)
                                         </Text> 
                                     </ListItem>
                                 </List>
@@ -175,34 +190,40 @@ export function RequisitesOrientations() {
                         <Box>
                             <VStack>
                                 <Box bgColor="green.300" borderRadius="25" p="1">
-                                    <Icon as={RiCompassFill} fontSize="30" color="white"/>
+                                    <Icon as={RiSettingsFill} fontSize="30" color="white"/>
                                 </Box>
                                 <Heading fontSize="3xl">
-                                    Fase II
+                                    Fase 2
                                 </Heading>
                                 <List>
                                     <ListItem>
-                                        <ListIcon as={RiCheckboxCircleFill} color="green.600"/>
+                                        <ListIcon as={RiSettingsFill} color="green.600"/>
                                         <Text as="span" color="green.900">
-                                            Duis aute irure dolor in reprehenderit
+                                            Acompanhamento do processo (pág 74) 
                                         </Text> 
                                     </ListItem>
                                     <ListItem>
                                         <ListIcon as={RiSettingsFill} color="green.600"/>
                                         <Text as="span" color="green.900">
-                                            in voluptate velit esse cillum dolore
-                                        </Text> 
-                                    </ListItem>
-                                    <ListItem>
-                                        <ListIcon as={RiCheckboxCircleFill} color="green.600"/>
-                                        <Text as="span" color="green.900">
-                                            eu fugiat nulla pariatur. Excepteur
+                                            Acompanhar as decisões do INPI (pág 74)
                                         </Text> 
                                     </ListItem>
                                     <ListItem>
                                         <ListIcon as={RiSettingsFill} color="green.600"/>
                                         <Text as="span" color="green.900">
-                                            sint occaecat cupidatat.
+                                            Compreendendo as decisões do INPI (75)
+                                        </Text> 
+                                    </ListItem>
+                                    <ListItem>
+                                        <ListIcon as={RiSettingsFill} color="green.600"/>
+                                        <Text as="span" color="green.900">
+                                            Principais fases do pedido de patente (pág 81)
+                                        </Text> 
+                                    </ListItem>
+                                    <ListItem>
+                                        <ListIcon as={RiSettingsFill} color="green.600"/>
+                                        <Text as="span" color="green.900">
+                                            Principais fases do pedido de patente (pág 94)
                                         </Text> 
                                     </ListItem>
                                 </List>
@@ -214,80 +235,15 @@ export function RequisitesOrientations() {
                                     <Icon as={Ri4KLine} fontSize="30" color="white"/>
                                 </Box>
                                 <Heading fontSize="3xl">
-                                    Fase III
+                                    Fase 3
                                 </Heading>
                                 <List>
                                     <ListItem>
-                                        <ListIcon as={RiCheckboxCircleFill} color="green.600"/>
-                                        <Text as="span" color="green.900">
-                                            Duis aute irure dolor in
-                                            <ListItem>
-                                        <ListIcon as={RiCheckboxCircleFill} color="green.600"/>
-                                        <Text as="span" color="green.900">
-                                            eu fugiat nulla pariatur. Excepteur
-                                        </Text> 
-                                    </ListItem>
-                                    <ListItem>
                                         <ListIcon as={RiSettingsFill} color="green.600"/>
                                         <Text as="span" color="green.900">
-                                            sint occaecat cupidatat.
-                                        </Text> 
-                                    </ListItem>           </Text> 
-                                    </ListItem>
-                                    <ListItem>
-                                        <ListIcon as={RiSettingsFill} color="green.600"/>
-                                        <Text as="span" color="green.900">
-                                            in voluptate velit esse 
-                                        </Text> 
-                                    </ListItem>
-                                    <ListItem>
-                                        <ListIcon as={RiCheckboxCircleFill} color="green.600"/>
-                                        <Text as="span" color="green.900">
-                                            eu fugiat nulla pariatur
-                                        </Text> 
-                                    </ListItem>
-                                    <ListItem>
-                                        <ListIcon as={RiSettingsFill} color="green.600"/>
-                                        <Text as="span" color="green.900">
-                                            sint occaecat cupidatat
-                                        </Text> 
-                                    </ListItem>
-                                </List>
-                            </VStack>
-                        </Box>
-                        <Box>
-                            <VStack>
-                                <Box bgColor="green.300" borderRadius="25" p="1">
-                                    <Icon as={RiFlagLine} fontSize="30" color="white"/>
-                                </Box>
-                                <Heading fontSize="3xl">
-                                    Fase III
-                                </Heading>
-                                <List>
-                                    <ListItem>
-                                        <ListIcon as={RiCheckboxCircleFill} color="green.600"/>
-                                        <Text as="span" color="green.900">
-                                            Duis aute irure dolor in reprehenderit
-                                        </Text> 
-                                    </ListItem>
-                                    <ListItem>
-                                        <ListIcon as={RiSettingsFill} color="green.600"/>
-                                        <Text as="span" color="green.900">
-                                            in voluptate velit esse cillum dolore
-                                        </Text> 
-                                    </ListItem>
-                                    <ListItem>
-                                        <ListIcon as={RiCheckboxCircleFill} color="green.600"/>
-                                        <Text as="span" color="green.900">
-                                            eu fugiat nulla pariatur. Excepteur
-                                        </Text> 
-                                    </ListItem>
-                                    <ListItem>
-                                        <ListIcon as={RiSettingsFill} color="green.600"/>
-                                        <Text as="span" color="green.900">
-                                            sint occaecat cupidatat.
-                                        </Text> 
-                                    </ListItem>
+                                            Solucionando problemas (pág 95)
+                                        </Text>
+                                    </ListItem>      
                                 </List>
                             </VStack>
                         </Box>
