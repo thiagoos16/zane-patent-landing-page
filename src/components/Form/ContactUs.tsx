@@ -12,12 +12,11 @@ export function ContactUs() {
                 <VStack spacing="8">
                     <VStack minChildWidth="240px" spacing="8" w="100%">
                         <Input name="Nome" label="Nome" />
-                        <Input name="Email" label="Email" /> 
                     </VStack>
 
                     <HStack minChildWidth="240px" spacing="8" w="100%">
+                        <Input name="Email" label="Email" /> 
                         <Input name="Whatsapp" label="Whatsapp" />
-                        <Input name="campo04" label="Campo 04" />  
                     </HStack>
 
                     <HStack minChildWidth="240px" spacing="8" w="100%">
