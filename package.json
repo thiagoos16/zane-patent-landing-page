@@ -6,8 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start -p $PORT",
-    "lint": "next lint",
-    "heroku-postbuild": "yarn run build"
+    "lint": "next lint"
   },
   "dependencies": {
     "@chakra-ui/core": "^0.8.0",
