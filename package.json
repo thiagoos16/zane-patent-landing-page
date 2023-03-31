@@ -30,7 +30,7 @@
     "typescript": "^4.3.4"
   },
   "engines": {
-    "node": "18.x",
+    "node": "14.x",
     "yarn": "1.x"
   },
   "cacheDirectories": [
